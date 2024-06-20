@@ -53,6 +53,8 @@ J'ai essentiellement testé les classes traitant directement avec les données  
 
 
 ### Utilisation ?
+## Installation :
+Pensez à faire un composer install afin d'obtenir le vendor.
 
 Rien de bien special 
 
