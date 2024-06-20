@@ -6,6 +6,10 @@ class OrderGame
 {
     public function orderMyGame(array $games, array $newGame)
     {
+        if (empty($games)) {
+            return $newGame;
+        }
+
         for ($i = 0; $i < count($games); $i++) {
             for ($j = $i+1; $j < count($games); $j++) {
                 if ($games[$i]->getValue() > $games[$j]->getValue()) {

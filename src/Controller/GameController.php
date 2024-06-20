@@ -11,7 +11,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class GameController extends AbstractController
 {
     /**
-     * @Route("/game", name="app_game")
+     * @Route("/", name="app_game")
      */
     public function index(Game $game, GetMyGameOrdered  $getMyGameOrdered): Response
     {

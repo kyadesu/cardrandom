@@ -12,6 +12,6 @@ class GetMyNRandomCard implements GetMyNRandomCardInterface
 
         shuffle($deck);
 
-        return array_slice($deck, 0,$nCard);
+        return array_slice($deck, 0, $nCard);
     }
 }
