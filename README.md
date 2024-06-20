@@ -49,14 +49,14 @@ Celle-ci utilise les deux répertoires (deux appels distinces) pour générer no
 En derniere partie, nous avons les tests unitaires avec PhpUnit, j'ai tenté de faire un jeu de tests complets
 afin  de couvrir le maximum de données.
 
-J'ai essentiellement testée les classes traitant directement avec les données  générer en esperant n'avoir rien oublié.
+J'ai essentiellement testé les classes traitant directement avec les données  générées en esperant n'avoir rien oublié.
 
 
 ### Utilisation ?
 
 Rien de bien special 
 
-Pour une utilisation basic ;
+Pour une utilisation basic :
 - symfony server:start
 - http://127.0.0.1:8000/
 
@@ -64,4 +64,5 @@ Vous tomberez directement sur la page des cartes avec une version textuel des ca
 Une partie séparée avec les cartes dans le désordre et une autre triée.
 
 Il n'y a pas d'interface userfriendly n'étant pas assez experimenté dans ce dommaine.
+Mais je souhaite fortement monter en compétence sur js/framework js
 
