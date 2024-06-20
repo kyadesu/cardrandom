@@ -66,3 +66,5 @@ Une partie séparée avec les cartes dans le désordre et une autre triée.
 Il n'y a pas d'interface userfriendly n'étant pas assez experimenté dans ce dommaine.
 Mais je souhaite fortement monter en compétence sur js/framework js
 
+Pour lancer les tests : 
+- php bin/phpunit
